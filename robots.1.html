@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+<html lang="en">
+<head>
+  <title>Mr Robot!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="stylenew.css">  
+  
+  
+</head>
+<body>
+  <header>
+      <div>
+    
+          <header class="animate-bottom">
+              <div>
+                  <a class="headerlogo" href="index.1.html">
+                      <!-- <img id="robotLogo" src="images/logo.jpg" class="img-fluid img-thumbnail"/> -->
+                  </a>
+                  <!-- <span id="headername">Mr. Robot</span> -->
+                  <!-- <input type="text" id="myInput" placeholder="Search"> -->
+                  <!-- <input type="search" class="searchbox" placeholder="Search our store" /> -->
+              </div>
+              <div>
+              <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
+                      <!-- <img id="robotLogo" src="images/logo.jpg" class="img-fluid img-thumbnail"/>     -->
+                  <a class="navbar-brand" href="#"> <img id="robotLogo" src="images/logo.jpg" class="img-fluid img-thumbnail"/></a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- <span id="headername" >Mr. Robot</span> -->
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="index.1.html">Mr. Robot! <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="computers.html" title="See all options available">Hardware Options</a>
+                          </li>
+                          <li class="nav-item">
+                                  <a class="nav-link" href="robots.1.html">Meet Our Robots</a>
+                                </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              More Info
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="contact.html">Contact Us</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="about.html">About</a>
+                              
+                              <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                            </div>
+                          </li>
+                          
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" id="myInput" onkeyup="myFunction()" aria-label="Search">
+                          <!-- <button class="btn  my-2 my-sm-0" type="submit">Search</button> -->
+                        </form>
+                      </div>
+                      <br>
+                      <br>
+                      
+                    </nav>
+                  </div>   
+
+
+
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>  
+<fieldset>
+<legend>Mr. Robot's Top Robot Models</legend>
+
+<!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
+
+<ul id="robots">
+  <li class="thumbnail col-sm-3 col-xs-6">
+    <a>
+     <h4>
+        <img id="imgrobo1" class="img-fluid" src="images/roboDog.png" width=200 height=200 alt="robo1">
+        <div class="caption">
+        <h4>
+          <label for="imgrobo1">  Name:</label>
+         R.E.T.</h4>
+      
+    
+      <h5>This was our first robot. He was modeled after the famous movie character E.T.</h5>
+      </div>
+    </a>    
+  </li>
+
+  <li class="thumbnail col-sm-3 col-xs-6">
+    <a>
+      <img id="imgrobo2" class="img-fluid" src="images/robot2.png" width=200 height=200 alt="robo1">
+        <div class="caption">
+          <h4>
+          <label for="imgrobo2">  Name:</label>
+             Butler.Bot</h4>
+          <h5>This was our second robot. He makes a mean martini!</h5>
+          </div>
+    </a>
+  </li>
+
+  <li class="thumbnail col-sm-3 col-xs-6">
+    <a>
+      <h4>
+          <img id="imgrobo3" class="img-fluid" src="images/robot3.png" width=200 height=200 alt="robo1">
+          <div class="caption">  
+        <label for="imgrobo3">  Name:</label>
+             Mega Man</h4>
+          
+        
+          <h5>This is our newest model. This one will follow you around the house.</h5>
+          </div>
+  </a></li>
+  
+</ul> 
+
+
+
+<footer>
+  <p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
+  <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
+  <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+</footer>
+
+<template id="producttemplate">
+<article>
+  <label id="lblName" for="productimage">Name:</label>
+  <img id="pimage" name="productimage" class="productarticlelargeimage" src="" alt="product image">
+  <article name="productdescription" class="productarticledescription" >
+
+  </article>
+  </article>
+</template>
+<template id="user">
+<div>User</div>
+     <template id="address">
+             <div>Address</div>
+     </template>
+</template>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- <script src="scripts/jquery-ui.js"></script> -->
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+</body>
+</html>
+ 

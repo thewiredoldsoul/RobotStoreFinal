@@ -1,0 +1,102 @@
+#robotLogo {
+    height: 150px;
+    width: 150px;
+    position: static;
+    
+}
+
+#logoTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: Impact;
+    font-size: 45px;
+    color: red;
+
+
+}
+
+.headerlogo{
+    display: flex;
+
+}
+
+.searchbox{
+    /* position:absolute;   */
+    /* left:50%; */
+    /* top:25%; */
+    
+}
+
+.NavBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+
+    /* width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+    padding: 6px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block; */
+}
+    
+.NavBar li {
+    float: left; 
+    /* display: inline; */
+}
+
+.navlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+#headername{
+    color: red;
+
+
+}
+/* 
+#welcomeimage{
+    display: inline;
+} */
+
+.lorem {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+/* 
+
+.NavBar ul{
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 6px;
+    margin: 0;
+}
+
+.NavBar li{
+    float: left;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    display: inline-block;
+    text-align: center;
+}
+
+.NavBar a{
+    text-decoration: none;
+
+} */
